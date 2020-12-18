@@ -39,3 +39,14 @@ console.log(markBmi2);
 console.log(johnBmi2);
 console.log(markHigherBmi2)
 */
+
+// if / else
+
+const age = 15;
+
+if (age >= 18) {
+    console.log("Sarah can start driving.")
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young wait another ${yearsLeft} years.`);
+}

@@ -18,6 +18,7 @@ var foo = 'bar';
 foo = 'baz';
 
 // coding challenge 1
+/*
 function calculate_bim(height, mass) {
     const bmi = mass / height ** 2;
     return bmi;
@@ -37,3 +38,4 @@ console.log(markHigherBmi1)
 console.log(markBmi2);
 console.log(johnBmi2);
 console.log(markHigherBmi2)
+*/

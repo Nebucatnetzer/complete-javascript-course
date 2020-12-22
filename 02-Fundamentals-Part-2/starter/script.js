@@ -95,3 +95,27 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 console.log(yearsUntilRetirement(1991, 'Max'));
 console.log(yearsUntilRetirement(1930, 'Hans'));
 */
+
+// Coding challenge #1
+
+const calcAverage = (inputValue1, inputValue2, inputValue3) => {
+    return (inputValue1 + inputValue2 + inputValue3) / 3;
+}
+
+function checkWinner(averageDolphins, averageKoalas) {
+    if (averageDolphins >= 2 * averageKoalas) {
+        console.log(`Dolphins win (${averageDolphins} vs. ${averageKoalas})`);
+    } else if (averageKoalas >= 2 * averageDolphins){
+        console.log(`Koalas win (${averageKoalas} vs. ${averageDolphins})`);
+    } else {
+        console.log('No team wins.')
+    }
+}
+
+const firstRound = checkWinner(
+    calcAverage(44, 23, 71),
+    calcAverage(65, 54, 49));
+
+const secondRound = checkWinner(
+    calcAverage(85, 54, 41),
+    calcAverage(23, 34, 27));

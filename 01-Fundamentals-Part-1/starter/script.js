@@ -8,6 +8,7 @@ console.log(firstName)
 
 // var and const
 
+/*
 const birthday = "01.01.1970";
 
 // this is not allowed
@@ -16,8 +17,10 @@ const birthday = "01.01.1970";
 // old
 var foo = 'bar';
 foo = 'baz';
+*/
 
 // coding challenge 1
+/*
 function calculate_bim(height, mass) {
     const bmi = mass / height ** 2;
     return bmi;
@@ -37,3 +40,26 @@ console.log(markHigherBmi1)
 console.log(markBmi2);
 console.log(johnBmi2);
 console.log(markHigherBmi2)
+*/
+
+// strings and template literals
+
+/*
+const year = 2020;
+const animal = "bear";
+
+const sentence = year + ' is the year of the ' + animal + '.';
+console.log(sentence);
+
+const template_sentence = `${year} is the year of the ${animal}.`
+console.log(template_sentence);
+*/
+
+// Coding Challenge #4
+
+const defaultTip = 0.15;
+const specialTip = 0.2;
+
+const menuPrice = Number(prompt("Please enter the menu price."));
+const tip = menuPrice >= 50 && menuPrice <= 300 ? menuPrice * defaultTip : menuPrice * specialTip;
+console.log(`The bill was ${menuPrice}, the tip was ${tip}, and the total value ${menuPrice + tip}`);

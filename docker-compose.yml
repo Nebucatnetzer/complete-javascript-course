@@ -1,0 +1,12 @@
+version: '3'
+
+volumes:
+  db_data:
+
+services:
+  frontend:
+    image: nginx:latest
+    ports:
+      - 8000:80
+    volumes:
+      - .:/usr/share/nginx/html:ro

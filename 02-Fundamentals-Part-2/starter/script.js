@@ -28,3 +28,17 @@ function fruitProcessor(apples, oranges) {
 
 console.log(fruitProcessor(3, 4));
 */
+
+
+// function declaration and expression
+// declaration
+/*
+function calcAge1(birthYear) {
+    return 2037 - birthYear;
+}
+
+// expression
+const calcAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+*/

@@ -97,10 +97,8 @@ console.log(yearsUntilRetirement(1930, 'Hans'));
 */
 
 // Coding challenge #1
-
-const calcAverage = (inputValue1, inputValue2, inputValue3) => {
-    return (inputValue1 + inputValue2 + inputValue3) / 3;
-}
+/*
+const calcAverage = (a, b, c) => (a + b + c) / 3;
 
 function checkWinner(averageDolphins, averageKoalas) {
     if (averageDolphins >= 2 * averageKoalas) {
@@ -119,3 +117,4 @@ const firstRound = checkWinner(
 const secondRound = checkWinner(
     calcAverage(85, 54, 41),
     calcAverage(23, 34, 27));
+*/

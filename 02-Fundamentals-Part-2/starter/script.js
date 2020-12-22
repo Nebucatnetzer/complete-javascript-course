@@ -42,3 +42,9 @@ const calcAge2 = function (birthYear) {
     return 2037 - birthYear;
 }
 */
+
+
+// arrow function
+/*
+const calcAge3 = birthYear => 2037 - birthYear;
+*/

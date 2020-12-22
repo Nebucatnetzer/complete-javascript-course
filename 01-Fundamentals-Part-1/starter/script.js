@@ -55,6 +55,28 @@ const template_sentence = `${year} is the year of the ${animal}.`
 console.log(template_sentence);
 */
 
+// if / else
+/*
+const age = 15;
+
+if (age >= 18) {
+    console.log("Sarah can start driving.")
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young wait another ${yearsLeft} years.`);
+}
+
+const birthYear = 1991;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+*/
+
 // Coding Challenge #4
 
 const defaultTip = 0.15;

@@ -163,3 +163,33 @@ const totals = [
 console.log(tips);
 console.log(totals);
 */
+
+
+// objects
+/*
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Muster',
+    birthYear:1991,
+    job: 'coder',
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriversLicense: true,
+
+    calcAge: function () {
+        return 2037 - this.birthYear;
+    }
+};
+
+console.log(jonas);
+
+console.log(jonas.lastName);
+console.log(jonas['lastName']);
+
+const nameKey = 'Name';
+console.log(jonas['first' + nameKey]);
+console.log(jonas['last' + nameKey]);
+
+console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+
+console.log(jonas.calcAge());
+*/

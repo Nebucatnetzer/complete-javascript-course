@@ -200,4 +200,12 @@ console.log(jonas.calcAge());
 for (let rep = 1; rep <= 10; rep++){
     console.log(`something to repeat ${rep}`)
 }
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+    ages.push(2037 - years[i]);
+}
+console.log(ages);
 */

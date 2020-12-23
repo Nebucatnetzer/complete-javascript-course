@@ -193,3 +193,11 @@ console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his bes
 
 console.log(jonas.calcAge());
 */
+
+
+// for loop
+/*
+for (let rep = 1; rep <= 10; rep++){
+    console.log(`something to repeat ${rep}`)
+}
+*/

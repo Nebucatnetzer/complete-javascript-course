@@ -209,3 +209,23 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log(ages);
 */
+
+// reverse for loop
+/*
+const years = [1991, 2007, 1969, 2020];
+
+for (let i = years.length - 1; i >= 0; i--) {
+    console.log(i, years[i]);
+
+}
+
+// loop in a loop
+for (let exercise = 0; exercise < 4; exercise++) {
+    console.log(`Starting execise ${exercise}`);
+    for (let rep = 0; rep < 6; rep++) {
+       console.log(`Lifting weight repetition ${rep}`);
+    }
+
+}
+*/
+

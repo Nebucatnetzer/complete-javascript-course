@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Strict mode example
 /*
@@ -29,7 +29,6 @@ function fruitProcessor(apples, oranges) {
 console.log(fruitProcessor(3, 4));
 */
 
-
 // function declaration and expression
 // declaration
 /*
@@ -43,7 +42,6 @@ const calcAge2 = function (birthYear) {
 }
 */
 
-
 // arrow function
 /*
 const calcAge3 = birthYear => 2037 - birthYear;
@@ -56,7 +54,6 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 
 console.log(yearsUntilRetirement(1991, 'Max'));
 */
-
 
 // functions in functions
 /*
@@ -164,7 +161,6 @@ console.log(tips);
 console.log(totals);
 */
 
-
 // objects
 /*
 const jonas = {
@@ -193,7 +189,6 @@ console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his bes
 
 console.log(jonas.calcAge());
 */
-
 
 // for loop
 /*
@@ -248,20 +243,9 @@ while (dice !== 6) {
 }
 */
 
-
 // Coding Challenge #4
 
-const bills = [22,
-    295,
-    176,
-    440,
-    37,
-    105,
-    10,
-    1100,
-    86,
-    52
-];
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [];
 const totals = [];
 

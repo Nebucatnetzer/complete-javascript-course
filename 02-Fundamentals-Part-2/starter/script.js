@@ -276,7 +276,7 @@ function calcTip(bill) {
 function calcAverage(arr) {
     let total = 0;
     for (let index = 0; index < arr.length; index++) {
-        total = total + arr[index];
+        total += arr[index];
     }
     console.log(total / arr.length);
 }

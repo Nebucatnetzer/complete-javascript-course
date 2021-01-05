@@ -83,5 +83,12 @@ const defaultTip = 0.15;
 const specialTip = 0.2;
 
 const menuPrice = Number(prompt("Please enter the menu price."));
-const tip = menuPrice >= 50 && menuPrice <= 300 ? menuPrice * defaultTip : menuPrice * specialTip;
-console.log(`The bill was ${menuPrice}, the tip was ${tip}, and the total value ${menuPrice + tip}`);
+const tip =
+    menuPrice >= 50 && menuPrice <= 300
+        ? menuPrice * defaultTip
+        : menuPrice * specialTip;
+console.log(
+    `The bill was ${menuPrice}, the tip was ${tip}, and the total value ${
+        menuPrice + tip
+    }`
+);

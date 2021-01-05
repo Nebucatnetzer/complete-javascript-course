@@ -247,3 +247,44 @@ while (dice !== 6) {
     }
 }
 */
+
+
+// Coding Challenge #4
+
+const bills = [22,
+    295,
+    176,
+    440,
+    37,
+    105,
+    10,
+    1100,
+    86,
+    52
+];
+const tips = [];
+const totals = [];
+
+function calcTip(bill) {
+    if (bill >= 50 && bill <= 300) {
+        return bill * 0.15;
+    } else {
+        return bill * 0.2;
+    }
+}
+
+function calcAverage(arr) {
+    let total = 0;
+    for (let index = 0; index < arr.length; index++) {
+        total = total + arr[index];
+    }
+    console.log(total / arr.length);
+}
+
+for (let index = 0; index < bills.length; index++) {
+    tips.push(calcTip(bills[index]));
+    totals.push(bills[index] + tips[tips.length - 1]);
+}
+console.log(tips);
+console.log(totals);
+calcAverage(totals);

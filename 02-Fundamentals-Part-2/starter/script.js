@@ -244,7 +244,7 @@ while (dice !== 6) {
 */
 
 // Coding Challenge #4
-
+/*
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [];
 const totals = [];
@@ -272,3 +272,4 @@ for (let index = 0; index < bills.length; index++) {
 console.log(tips);
 console.log(totals);
 calcAverage(totals);
+*/
